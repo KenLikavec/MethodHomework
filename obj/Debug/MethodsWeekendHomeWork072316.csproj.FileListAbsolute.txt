@@ -1,0 +1,6 @@
+c:\users\wecancodeit\documents\visual studio 2015\Projects\MethodsWeekendHomeWork072316\MethodsWeekendHomeWork072316\bin\Debug\MethodsWeekendHomeWork072316.exe.config
+c:\users\wecancodeit\documents\visual studio 2015\Projects\MethodsWeekendHomeWork072316\MethodsWeekendHomeWork072316\bin\Debug\MethodsWeekendHomeWork072316.exe
+c:\users\wecancodeit\documents\visual studio 2015\Projects\MethodsWeekendHomeWork072316\MethodsWeekendHomeWork072316\bin\Debug\MethodsWeekendHomeWork072316.pdb
+c:\users\wecancodeit\documents\visual studio 2015\Projects\MethodsWeekendHomeWork072316\MethodsWeekendHomeWork072316\obj\Debug\MethodsWeekendHomeWork072316.csprojResolveAssemblyReference.cache
+c:\users\wecancodeit\documents\visual studio 2015\Projects\MethodsWeekendHomeWork072316\MethodsWeekendHomeWork072316\obj\Debug\MethodsWeekendHomeWork072316.exe
+c:\users\wecancodeit\documents\visual studio 2015\Projects\MethodsWeekendHomeWork072316\MethodsWeekendHomeWork072316\obj\Debug\MethodsWeekendHomeWork072316.pdb
