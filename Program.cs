@@ -10,7 +10,7 @@ namespace MethodsWeekendHomeWork072316
     {
         static void Main(string[] args)
         {
-            //PROBLEM 1
+            ////PROBLEM 1
             //Console.WriteLine("Type in a phrase");
             //string y = Console.ReadLine();
             //ReverseString(y);
@@ -19,28 +19,28 @@ namespace MethodsWeekendHomeWork072316
 
 
 
-            //PROBLEM 2
-            //string.Compare("A", "a", true);
-            //Console.WriteLine("Type out your first name:");
+            ////PROBLEM 2
+            //Console.WriteLine("type out your first name:");
             //string a = Console.ReadLine();
 
-            //Console.WriteLine("Type out your birth month:");
+            //Console.WriteLine("type out your birth month:");
             //string b = Console.ReadLine();
+            //string c = b.ToUpper();
 
-            //NameBirthday(a,b);
-
-
-
+            //NameBirthday(a, c);
 
 
 
 
 
-            //PROBLEM 3
+
+
+
+            ////PROBLEM 3
             //Console.WriteLine("Type out your first name?");
             //string c = Console.ReadLine();
 
-            ////Spacing purposes to look cleaner while running
+            //Spacing purposes to look cleaner while running
             //Console.WriteLine();
 
             //Console.WriteLine("Type out your last name?");
@@ -56,14 +56,14 @@ namespace MethodsWeekendHomeWork072316
 
 
 
-            //PROBLEM 4
-            Console.WriteLine("Type in a single word");
-            string x = Console.ReadLine();
-            ridOfZero(x);
+            ////PROBLEM 4
+            //Console.WriteLine("Type in a phrase with a 0 in it");
+            //string x = Console.ReadLine();
+            //ridOfZero(x);
 
 
-            
-            
+
+
 
 
 
@@ -99,12 +99,12 @@ namespace MethodsWeekendHomeWork072316
 
 
 
-        //PROBLEM 1
+        ////PROBLEM 1
         //static void ReverseString(string x)
         //{
         //    string[] items = x.Split(' ');
         //    Array.Reverse(items);
-        //    foreach(string s in items)
+        //    foreach (string s in items)
         //    {
         //        Console.Write(s + " ");
         //    }
@@ -112,57 +112,55 @@ namespace MethodsWeekendHomeWork072316
 
 
 
-        //"a":Jan, Feb, Mar, May, Jun, July, Sep, Nov, Dec.
-        //"an": Apr, Aug, Oct
-        //PROBLEM 2
+
+        ////PROBLEM 2
         //static void NameBirthday(string x, string y)
         //{
-        //    string.Compare("A", "a", true);
-        //    if (y == "January")
+        //    if (y == "JANUARY")
         //    {
         //        Console.WriteLine(x + " is a January baby");
         //    }
-        //    if (y == "February")
+        //    if (y == "FEBRUARY")
         //    {
         //        Console.WriteLine(x + " is a February baby");
         //    }
-        //    if (y == "March")
+        //    if (y == "MARCH")
         //    {
         //        Console.WriteLine(x + " is a March baby");
         //    }
-        //    if (y == "May")
+        //    if (y == "MAY")
         //    {
         //        Console.WriteLine(x + " is a May baby");
         //    }
-        //    if (y == "June")
+        //    if (y == "JUNE")
         //    {
-        //        Console.WriteLine(x + " is a june baby");
+        //        Console.WriteLine(x + " is a June baby");
         //    }
-        //    if (y== "July")
+        //    if (y == "JULY")
         //    {
         //        Console.WriteLine(x + " is a July baby");
         //    }
-        //    if (y == "September")
+        //    if (y == "SEPTEMBER")
         //    {
         //        Console.WriteLine(x + " is a September baby");
         //    }
-        //    if (y == "November")
+        //    if (y == "NOVEMBER")
         //    {
         //        Console.WriteLine(x + " is a November baby");
         //    }
-        //    if (y == "December")
+        //    if (y == "DECEMBER")
         //    {
         //        Console.WriteLine(x + " is a December baby");
         //    }
-        //    if (y == "April")
+        //    if (y == "APRIL")
         //    {
         //        Console.WriteLine(x + " is an April baby");
         //    }
-        //    if (y == "August")
+        //    if (y == "AUGUST")
         //    {
         //        Console.WriteLine(x + " is an August baby");
         //    }
-        //    if (y == "October")
+        //    if (y == "OCTOBER")
         //    {
         //        Console.WriteLine(x + " is an October baby");
         //    }
@@ -175,18 +173,18 @@ namespace MethodsWeekendHomeWork072316
 
 
 
-        //PROBLEM 3
+        ////PROBLEM 3
         //static void name(string firstName, string lastName)
         //{
         //    string firstNameCasing = firstName.Substring(0, 1);
         //    string a = firstNameCasing.ToUpper();
-        //    string restOfFirstName = firstName.Substring(1, firstName.Length -1);
+        //    string restOfFirstName = firstName.Substring(1, firstName.Length - 1);
         //    string entireFirstName = a + restOfFirstName;
 
 
         //    string lastNameCasing = lastName.Substring(0, 1);
         //    string b = lastNameCasing.ToUpper();
-        //    string restOfLastname = lastName.Substring(1, lastName.Length -1);
+        //    string restOfLastname = lastName.Substring(1, lastName.Length - 1);
         //    string entireLastName = b + restOfLastname;
 
 
@@ -197,20 +195,20 @@ namespace MethodsWeekendHomeWork072316
 
 
 
-        //PROBLEM 4
-        static void ridOfZero(string a)
-        {
-            int indexZero = a.IndexOf('0');
-            if (indexZero != -1)
-            {
-                string Remove = a.Remove(indexZero, 1);
-                Console.WriteLine(Remove);
-            }
-            if (indexZero == -1)
-            {
-                Console.WriteLine("This string is okay!");
-            }
-        }
+        ////PROBLEM 4
+        //static void ridOfZero(string a)
+        //{
+        //    int indexZero = a.IndexOf('0');
+        //    if (indexZero != -1)
+        //    {
+        //        string Remove = a.Remove(indexZero, 1);
+        //        Console.WriteLine(Remove);
+        //    }
+        //    if (indexZero == -1)
+        //    {
+        //        Console.WriteLine("This string is okay!");
+        //    }
+        //}
 
 
 
